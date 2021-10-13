@@ -37,16 +37,22 @@
 
 @section('menuRiwayatOrganisasi')
 <div class="row" id="organisasi">
-    <div class="col-md-8">
-        <div class="">
-            <p class="lead">Riwayat Organisasi</p>
-            <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
-                Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
-                di Universitas Negeri Yogyakarta. 
-                Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
-                dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
-                Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="container">
+                <p class="lead">Riwayat Organisasi</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>November 2019 - Sekarang</p><br>
+                        <p>Mei 2020 - Sekarang</p><br>
+                    </div>
+                    <div class="col-md-8">
+                        <p>TIM Teknologi Informasi Universitas Negeri Yogyakarta <br><span class="text-muted">Anggota</span></p>
+                        <p>PKM Center Universitas Negeri Yogyakarta <br><span class="text-muted">TIM IT / Web Developer</span></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div>    
 </div>
 @endsection

@@ -37,16 +37,26 @@
 
 @section('menuRiwayatPendidikan')
 <div class="row" id="pendidikan">
-    <div class="col-md-8">
-        <div class="">
-            <p class="lead">Riwayat Pendidikan</p>
-            <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
-                Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
-                di Universitas Negeri Yogyakarta. 
-                Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
-                dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
-                Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="container">
+                <p class="lead">Riwayat Pendidikan</p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p>2006 - 2012</p>
+                        <p>2012 - 2015</p>
+                        <p>2015 - 2019</p> <br>
+                        <p>2019 - Sekarang</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>SD Negeri 2 Sanden, Bantul</p>
+                        <p>SMP Negeri 1 Sanden, Bantul</p>
+                        <p>SMK Negeri 2 Depok, Sleman <br><span class="text-muted">Teknik Komputer dan Jaringan</span></p>
+                        <p>Universitas Negeri Yogyakarta <br><span class="text-muted">S1 Teknologi Informasi</span></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div>    
 </div>
 @endsection

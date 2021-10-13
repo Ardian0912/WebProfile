@@ -37,19 +37,21 @@
 
 @section('menuDeskripsi')
 <div class="row" id="deskripsi">
-    <div class="col-md-8">
-        <div class="">
-            <p class="lead">Deskripsi</p>
-            <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
-                Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
-                di Universitas Negeri Yogyakarta. 
-                Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
-                dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
-                Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="container">
+                <p class="lead">Deskripsi</p>
+                <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
+                    Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
+                    di Universitas Negeri Yogyakarta. 
+                    Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
+                    dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
+                    Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+            </div>            
+        </div>        
+        <div class="col-md-4 container">
+            
         </div>
-    </div>
-    <div class="col-md-4">
-        
-    </div>
+    </div>    
 </div>
 @endsection

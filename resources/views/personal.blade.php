@@ -37,16 +37,32 @@
 
 @section('menuDataPersonal')
 <div class="row" id="personal">
-    <div class="col-md-8">
-        <div class="">
-            <p class="lead">Data Personal</p>
-            <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
-                Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
-                di Universitas Negeri Yogyakarta. 
-                Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
-                dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
-                Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="container">
+                <p class="lead">Data Personal</p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p>Nama Lengkap</p>
+                        <p>Tempat, Tanggal Lahir</p>
+                        <p>Alamat</p>
+                        <p>Agama</p>
+                        <p>Nomor Telepon</p>
+                        <p>Jenis Kelamin</p>
+                        <p>Kewarganegaraan</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>: Muhammad Nurwidya Ardiansyah</p>
+                        <p>: Bantul, 4 November 1999</p>
+                        <p>: Trisigan II, Murtigading, Sanden, Bantul, DI Yogyakarta</p>
+                        <p>: Islam</p>
+                        <p>: +6281328875312</p>
+                        <p>: Laki-Laki</p>
+                        <p>: Indonesia</p>
+                    </div>
+                </div>
+            </div>            
         </div>
-    </div>
+    </div>    
 </div>
 @endsection

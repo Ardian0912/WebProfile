@@ -37,16 +37,13 @@
 
 @section('menuGaleriVideo')
 <div class="row" id="galeri">
-    <div class="col-md-8">
-        <div class="">
-            <p class="lead">Galeri Video</p>
-            <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
-                Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
-                di Universitas Negeri Yogyakarta. 
-                Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
-                dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
-                Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="container">
+                <p class="lead">Galeri Video</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5uDzxreVkf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
-    </div>
+    </div>    
 </div>
 @endsection

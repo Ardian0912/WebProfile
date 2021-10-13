@@ -37,16 +37,30 @@
 
 @section('menuPenghargaan')
 <div class="row" id="penghargaan">
-    <div class="col-md-8">
-        <div class="">
-            <p class="lead">Data Penghargaan / Hibah / Penelitian / Pengabdian pada Masyarakat</p>
-            <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
-                Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
-                di Universitas Negeri Yogyakarta. 
-                Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
-                dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
-                Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="container">
+                <p class="lead">Data Penghargaan / Hibah / Penelitian / Pengabdian pada Masyarakat</p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p>Agustus 2016</p><br>
+                        <p>Desember 2016</p><br>
+                        <p>November 2017</p><br>
+                        <p>April 2021</p><br>
+                        <p>April 2021</p><br>
+                        <p>Mei 2021</p><br>
+                    </div>
+                    <div class="col-md-8">
+                        <p>LKS Matematika Teknologi Tingkat Kabupaten Sleman <br><span class="text-muted">Juara 1</span></p>
+                        <p>UPY Mathemathics Competition <br><span class="text-muted">Juara 2</span></p>
+                        <p>LKS IT/Software Development Tingkat DI Yogyakarta <br><span class="text-muted">Juara 3</span></p>
+                        <p>Dana Hibah "PKM-KC" 2021 <br><span class="text-muted">Kemendikbud-ristekdikti</span></p>
+                        <p>Dana Hibah "PKM-RSH" 2021 <br><span class="text-muted">Kemendikbud-ristekdikti</span></p>
+                        <p>Dana Hibah "KBMI" 2021 <br><span class="text-muted">Kemendikbud-dirjendikti</span></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div>    
 </div>
 @endsection

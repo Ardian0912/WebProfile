@@ -37,16 +37,24 @@
 
 @section('menuRiwayatPekerjaan')
 <div class="row" id="pekerjaan">
-    <div class="col-md-8">
-        <div class="">
-            <p class="lead">Riwayat Pekerjaan</p>
-            <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
-                Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
-                di Universitas Negeri Yogyakarta. 
-                Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
-                dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
-                Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="container">
+                <p class="lead">Riwayat Pekerjaan</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Juni 2018 - Juni 2019</p><br>
+                        <p>Agustus 2020</p><br>
+                        <p>September 2020</p><br>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Praktik Industri di CV. Karya Hidup Sentosa <br><span class="text-muted"> <i>Information and Communication Technologies Department</i> </span></p>
+                        <p>UNY National CARTESION <br><span class="text-muted"> <i>Staff Liaison Officer</i> </span></p>
+                        <p>Lomba Inovasi Digital Mahasiswa <br><span class="text-muted"> <i>Staff Liaison Officer</i> </span></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div>    
 </div>
 @endsection

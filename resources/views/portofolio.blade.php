@@ -37,16 +37,26 @@
 
 @section('menuPortofolio')
 <div class="row" id="portofolio">
-    <div class="col-md-8">
-        <div class="">
-            <p class="lead">Data Portofolio</p>
-            <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
-                Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
-                di Universitas Negeri Yogyakarta. 
-                Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
-                dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
-                Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="container">
+                <p class="lead">Data Portofolio</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>November 2020</p><br><br>
+                        <p>Maret 2021</p><br><br><br>
+                        <p>3 Agustus 2021 - Masa berlaku habis</p>
+                        <p>11 September 2021 - Masa berlaku habis</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Jurnal "Traversal Struktur Data Bipartite Graph dalam Graph Database menggunakan Depth-First Search" <br><span class="text-muted">Elinvo (<i>Electronics, Informatics, and Vocational Education</i>)</span></p>
+                        <p>Jurnal "Development and Performance Analysis of the Gunungkidul Cultural Potential Application Based on Progressive Web Apps" <br><span class="text-muted">JEATech (<i>Journal of Engineering and Applied Technology</i>)</span></p>
+                        <p>HaKI Emodul Funteach</p>
+                        <p>HaKI Sistem Peringatan Deteksi Kerumunan Berbasis <i>Deep Convolutional Neural Network</i>  Dengan Menggunakan CCTV</p>
+                    </div>
+                </div>                
+            </div>
         </div>
-    </div>
+    </div>    
 </div>
 @endsection

@@ -37,16 +37,58 @@
 
 @section('menuBahasa')
 <div class="row" id="bahasa">
-    <div class="col-md-8">
-        <div class="">
-            <p class="lead">Kemampuan Bahasa</p>
-            <p>Mahasiswa semester 5, lahir di Bantul 4 November 1999. 
-                Saat ini sedang menempuh pendidikan Strata 1 pada Program Studi Teknologi Informasi 
-                di Universitas Negeri Yogyakarta. 
-                Berpengalaman dalam berpartisipasi di berbagai kegiatan kemahasiswaan 
-                dan ikut serta dalam penelitian yang dilakukan oleh dosen.  
-                Dapat bekerja dengan baik dalam tim maupun secara mandiri.</p>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="container">
+                <p class="lead">Kemampuan Bahasa</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" >
+                            <div class="card-body">
+                                <h5 class="card-title">Bahasa Indonesia</h5>
+                                <p class="card-text">wwwww</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" >
+                            <div class="card-body">
+                                <h5 class="card-title">Bahasa Inggris</h5>
+                                <span class="card-text">
+                                    <i>Writting</i>  <br>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <i>Listening</i>  <br>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <i>Speaking</i>  <br>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 88%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <i>Reading</i>  <br>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Bahasa Jepang</h5>
+                                <p class="card-text"></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div>    
 </div>
 @endsection

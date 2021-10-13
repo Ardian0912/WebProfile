@@ -16,18 +16,26 @@
   <body> 
     <div class="container">
         <div class="row" >
-            <div class="col-md-8" style="padding-top:5%">
+            <div class="col-md-8" style="padding-top:3%">
                 <h1>Muhammad Nurwidya Ardiansyah</h1>
                 <hr width="85%">
-                <h3>Web Developer, Data Engineer</h3>
+                <h3 class="text-muted">Web Developer, Data Engineer</h3>
             </div>
             <div class="col-md-4">
                 <div class="text-center">
-                    <img src="{{ asset('image/cv-profil.png') }}" width="70%" height="70%" alt="profile picture" class="profile img-fluid rounded-circle">
+                    <img src="{{ asset('image/cv-profil.png') }}" width="50%" height="50%" alt="profile picture" class="profile img-fluid rounded-circle">
                 </div>
             </div>
             <div class="col-md-8">
                 @yield('menuHalaman') 
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-3">
+              <h6>m.n.ardian@gmail.com</h6>
+              <h6>+6281328875312</h6>
+              <h6>Bantul, D.I. Yogyakarta</h6>
             </div>                       
         </div>
         <br>
