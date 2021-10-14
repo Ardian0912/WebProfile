@@ -13,12 +13,39 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('deskripsi');
+    return view('v2/deskripsi');
 });
 
 //--------------- v2 ---------------------//
 Route::get('/v2', function () {
     return view('v2/deskripsi');
+});
+Route::get('/v2/biodata', function () {
+    return view('v2/biodata');
+});
+Route::get('/v2/riwayat-pendidikan', function () {
+    return view('v2/rpendidikan');
+});
+Route::get('/v2/riwayat-organisasi', function () {
+    return view('v2/rorganisasi');
+});
+Route::get('/v2/riwayat-pekerja', function () {
+    return view('v2/rpekerja');
+});
+Route::get('/v2/bahasa', function () {
+    return view('v2/bahasa');
+});
+Route::get('/v2/it-skills', function () {
+    return view('v2/skill');
+});
+Route::get('/v2/penghargaan', function () {
+    return view('v2/penghargaan');
+});
+Route::get('/v2/portofolio', function () {
+    return view('v2/portofolio');
+});
+Route::get('/v2/galeri-video', function () {
+    return view('v2/galeri');
 });
 
 //--------------- v1 --------------------//
