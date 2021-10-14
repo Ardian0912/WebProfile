@@ -32,7 +32,7 @@
             <div class="col-md-1">
 
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" style="padding: 1%;">
               <h6>m.n.ardian@gmail.com</h6>
               <h6>+6281328875312</h6>
               <h6>Bantul, D.I. Yogyakarta</h6>

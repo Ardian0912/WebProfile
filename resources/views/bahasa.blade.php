@@ -46,7 +46,7 @@
                         <div class="card" >
                             <div class="card-body">
                                 <h5 class="card-title">Bahasa Indonesia</h5>
-                                <p class="card-text">wwwww</p>
+                                <p class="card-text"></p>
                                 
                             </div>
                         </div>
